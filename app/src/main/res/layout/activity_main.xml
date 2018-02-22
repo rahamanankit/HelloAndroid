@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.helloandroid.MainActivity">
+    <ImageView
+        android:src="@drawable/uda1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text=" Udacity \n \n 2465 Latham St \n \n Mountain View, CA 94043 \n \n 650-555-5555"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:paddingTop="35dp"
+        android:paddingLeft="10dp"
+        />
+    <ImageView
+        android:src="@drawable/uda2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="10dp"
+        android:scaleType="fitXY"/>
+
+
+</LinearLayout>
